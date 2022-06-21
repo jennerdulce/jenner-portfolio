@@ -1,0 +1,11 @@
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 10em;
+}

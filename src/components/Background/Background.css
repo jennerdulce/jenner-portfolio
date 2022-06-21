@@ -1,0 +1,8 @@
+#background {
+    width: 50%;
+    height: 100vw;
+    /* background-color: blue; */
+    z-index: -9999;
+    position: fixed;
+    background-image: url("./background.jpg");
+  }

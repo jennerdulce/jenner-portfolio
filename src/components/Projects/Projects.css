@@ -1,0 +1,31 @@
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-wrapper {
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.project-icon {
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.project-info-wrapper > h4, .project-info-wrapper > h5 {
+    text-align: center;
+    margin: .7em auto
+}
