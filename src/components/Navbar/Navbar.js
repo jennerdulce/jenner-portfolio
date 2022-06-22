@@ -7,11 +7,12 @@ class Navbar extends Component {
             <div id="navbar">
                 <p>Jenner Dulce</p>
                 <div id="navbar-hyperlinks">
-                    <a>About</a>
-                    <a>Skills</a>
-                    <a>Portfolio</a>
-                    <a>Experience</a>
-                    <a>Contact</a>
+                    <a href="#about-me">About</a>
+                    <a href="#skill-stack">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#recommendations-container">Recommendations</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         );

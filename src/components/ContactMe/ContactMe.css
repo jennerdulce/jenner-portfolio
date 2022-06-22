@@ -1,0 +1,44 @@
+#contact {
+    padding: 10em 6em;
+    background-color: #d2e7d6;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inputs {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 250px
+}
+
+
+input {
+    display: block;
+    width: 600px;
+    height: 65px
+}
+
+#message {
+    height: 250px;
+    width: 600px
+
+}
+
+#contact-title-description > h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: .2em;
+}
+
+#contact-description {
+    font-size: 1.4em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3em;
+}

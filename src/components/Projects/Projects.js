@@ -5,8 +5,10 @@ class Projects extends Component {
     render() {
         return (
             <div id="projects">
-                <h1>Projects</h1>
-                <h5>An adventure in coding...</h5>
+                <div id="projects-title-description">
+                    <h1 className='title'>PROJECTS</h1>
+                    <h5 id="projects-description">An adventure in coding...</h5>
+                </div>
                 <div id="projects-container">
                     <div className='project-wrapper'>
                         <img className="project-icon" src="" alt=""/>

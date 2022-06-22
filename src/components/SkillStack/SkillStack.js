@@ -5,8 +5,10 @@ class SkillStack extends Component {
     render() {
         return (
             <div id="skill-stack">
-                <h1>Skill Stack</h1>
-                <h6>Languages, Frameworks, and Tools</h6>
+                <div id="skill-stack-title-description">
+                    <h1 className='title'>SKILL STACK</h1>
+                    <h6 id="skill-stack-description">Languages, Frameworks, and Tools</h6>
+                </div>
                 <div id="skill-wrapper">
                     <div className='icon-wrapper'>
                        <img className="skill-stack-icon" src="/icons/html.png" alt="HTML icon" />

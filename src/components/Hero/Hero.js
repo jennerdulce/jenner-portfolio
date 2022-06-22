@@ -5,9 +5,9 @@ class Hero extends Component {
     render() {
         return (
             <div id="hero">
-                <p>Welcome To My Portfolio</p>
-                <p>Slogan here</p>
-                <button>Tell Me More</button>
+                <p id="hero-welcome">Welcome To My Portfolio.</p>
+                <p id="hero-slogan"><i>"Don't be a baby about it, be about it baby"</i></p>
+                <button id="hero-button">Tell Me More</button>
             </div>
         );
     }

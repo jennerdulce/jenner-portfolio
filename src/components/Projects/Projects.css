@@ -1,9 +1,27 @@
 #projects {
+    margin-top: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #f7f7f7;
+    padding-bottom: 3em;
+    padding-top: 3em
+}
+
+#projects-title-description > h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: .2em;
+    color: #b8d8be;
+}
+
+#projects-description {
+    font-size: 1.4em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3em;
 }
 
 #projects-container {
@@ -17,6 +35,7 @@
     margin: 1em;
     border: 1px solid black;
     border-radius: 15px;
+    background-color: white;
 }
 
 .project-icon {

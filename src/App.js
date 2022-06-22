@@ -5,6 +5,9 @@ import Hero from './components/Hero/Hero'
 import SkillStack from './components/SkillStack/SkillStack'
 import Projects from './components/Projects/Projects'
 import Background from './components/Background/Background'
+import Recommendations from './components/Recommendations/Recommendations'
+import Footer from './components/Footer/Footer'
+import ContactMe from './components/ContactMe/ContactMe'
 import './App.css'
 
 class App extends Component {
@@ -17,6 +20,9 @@ class App extends Component {
         <AboutMe />
         <SkillStack />
         <Projects />
+        <Recommendations />
+        <ContactMe />
+        <Footer />
       </>
     )
   }

@@ -1,9 +1,22 @@
 #skill-stack {
-    margin-top: 2em;
+    margin-top: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#skill-stack-title-description > h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: .2em
+}
+
+#skill-stack-description {
+    font-size: 1.4em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3em
 }
 
 #skill-wrapper {
