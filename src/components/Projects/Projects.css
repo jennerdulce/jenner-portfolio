@@ -26,25 +26,42 @@
 
 #projects-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    width: 500px;
+    height: 615px;
 }
 
 .project-wrapper {
     margin: 1em;
     border: 1px solid black;
-    border-radius: 15px;
     background-color: white;
 }
 
-.project-icon {
-    height: 200px;
-    width: 350px;
-    border-radius: 15px;
+.project-image {
+    height: 333px;
+    width: 500px;
 }
 
 .project-info-wrapper > h4, .project-info-wrapper > h5 {
     text-align: center;
-    margin: .7em auto
+    margin: .7em auto;
+}
+
+.app-title {
+    font-size: 48px;
+}
+
+.app-subtitle {
+    font-size: 24px;
+}
+
+.build-date, .app-description {
+    font-size: 16px;
+}
+
+#tags-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
