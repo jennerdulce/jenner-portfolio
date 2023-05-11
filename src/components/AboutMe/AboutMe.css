@@ -2,15 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: white;
     margin-top: 5em;
-    background-color: #f7f7f7;
+    background-color: transparent;
     padding-bottom: 3em;
     padding-top: 3em
 }
 
+.about-me-text {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .title {
+    margin-top: -.2em;
     font-size: 3em
 }
 
@@ -28,8 +32,8 @@
 }
 
 #about-me-description {
-    width: 800px;
-    text-align: center;
+    width: 40em;
+    text-align: left;
     font-size: 1em;
     line-height: 1.8em;
     color: rgb(49, 48, 48);

@@ -5,9 +5,15 @@ class Hero extends Component {
     render() {
         return (
             <div id="hero">
-                <p id="hero-welcome">Welcome To My Portfolio.</p>
-                <p id="hero-slogan"><i>"Don't be a baby about it, be about it baby"</i></p>
-                <button id="hero-button">Tell Me More</button>
+                <div id="fullstack-text" class="hero-text">FULL-STACK</div>
+                <div className="hero-text">SOFTWARE</div>
+                <div className="hero-text">DEVELOPER</div>
+                {/* <div id="hero-cutoff">
+                    <div id="transparent-box-1"></div>
+                    <div id="transparent-box-2"></div>
+                </div> */}
+                {/* <img className="image" src=" https://img.freepik.com/premium-vector/businessman-working-laptop-smiling-while-enjoying-coffee-cafe-outline-drawing-style-art_7647-609.jpg" alt="reviewer"/> */}
+
             </div>
         );
     }

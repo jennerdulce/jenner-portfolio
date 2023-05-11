@@ -32,10 +32,49 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1em 4em
+    width: 90px;
+    height: 108px;
+    margin: 10px;
+    margin-bottom: 1.5em;
 }
 
 .skill-stack-icon {
-    height: 7em;
-    width: 7em;
+    height: 78px;
+    width: 78px;
+    padding: 8px
+}
+
+.skill-title {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.icons {
+    width: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-section {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 4em;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    /* align-items: center; */
+}
+
+.title {
+    font-family: 'Barlow Condensed', sans-serif;
 }

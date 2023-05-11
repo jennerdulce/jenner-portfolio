@@ -5,18 +5,9 @@ class ContactMe extends Component {
     render() {
         return (
             <div id="contact">
-                <div id="contact-title-description">
-                    <h1 className='title'>CONTACT ME</h1>
-                    <h5 id="contact-description">Let's get in touch!</h5>
-                </div>
-                <form>
-                    <div id="inputs">
-                        <input></input>
-                        <input></input>
-                        <input></input>
-                    </div>
-                    <input id="message"></input>
-                </form>
+                <h1 id="contact-text-1">LET'S BUILD</h1>
+                <h1 id="contact-text-2">TOGETHER</h1>
+                <h2 id="contact-email">JENNERDULCE@GMAIL.COM</h2>
             </div>
         );
     }

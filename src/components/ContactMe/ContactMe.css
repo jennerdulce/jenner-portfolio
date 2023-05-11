@@ -1,44 +1,30 @@
 #contact {
     padding: 10em 6em;
-    background-color: #d2e7d6;
+    background-color: #588b61;
 }
 
-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#contact-text-1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 9em;
+    text-align: left;
+    width: 700px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: -1em
 }
 
-#inputs {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 250px
+#contact-text-2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 9em;
+    text-align: left;
+    width: 700px;
+    margin-bottom: .2em
 }
 
-
-input {
-    display: block;
-    width: 600px;
-    height: 65px
-}
-
-#message {
-    height: 250px;
-    width: 600px
-
-}
-
-#contact-title-description > h1 {
-    text-align: center;
-    margin: auto;
-    margin-bottom: .2em;
-}
-
-#contact-description {
-    font-size: 1.4em;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 3em;
+#contact-email {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: underline;
 }
